@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230525194439">
+    <title>Главная</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230525194439" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="page">
+            <header class="header">
+                <div class="container">
+                    <a href="./index.html" class="header__logo">
+                        <picture><source srcset="./img/header/logo.webp" type="image/webp"><img src="./img/header/logo.png" alt="logo"></picture>
+                    </a>
+                    <nav class="header__menu menu">
+                        <div class="menu__body">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="./index.html" class="menu__link">Главная</a></li>
+                                <li class="menu__item"><a href="./catalogue.html" class="menu__link">Каталог</a></li>
+                                <li class="menu__item"><a href="./about.html" class="menu__link">О нас</a></li>
+                                <li class="menu__item"><a href="./contacts.html" class="menu__link">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <button class="menu__icon icon-menu" type="button">
+                            <span class="icon-menu__line"></span>
+                        </button>
+                    </nav>
+                </div>
+            </header>
+            <main class="content">
+                <section class="hero">
+                    <div class="container">
+                        <h1 class="hero__title">Добро пожаловать на сайт компании PROMHIMTORG</h1>
+                        <div class="hero__subtitle">
+                            <p>PROMHIMTORG - ведущий поставщик промышленной химии и материалов в Казахстане.</p>
+                            <p>Наша компания предлагает широкий ассортимент продукции, отвечающей высоким требованиям наших клиентов.</p>
+                        </div>
+                        <div class="hero__button">
+                            <a href="./about.html" class="hero__link">УЗНАТЬ БОЛЬШЕ</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="clients">
+                    <div class="container">
+                        <div class="clients__content">
+                            <h2 class="clients__title">Работа с клиентами</h2>
+                            <div class="clients__text">
+                                <p>Радость наших клиентов - наш приоритет. Мы находимся в постоянном контакте с людьми, с которыми сотрудничаем, и стремимся соответствовать критериям наших клиентов, как бы высоки они ни были. Наша команда усердно трудится, чтобы предоставить необходимые услуги и поддержку с индивидуальным подходом к каждому клиенту.</p>
+                            </div>
+                        </div>
+                        <div class="clients__image">
+                            <picture><source srcset="./img/clients/image.webp" type="image/webp"><img src="./img/clients/image.jpg" alt="image"></picture>
+                        </div>
+                    </div>
+                </section>
+                <section class="catalogue">
+                    <div class="container">
+                        <h2 class="catalogue__label">Каталог</h2>
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide catalogue__slide">
+                                    <h4 class="catalogue__title">Slide 1</h4>
+                                    <picture><source srcset="./img/catalogue/01.webp" type="image/webp"><img src="./img/catalogue/01.jpg" alt="image"></picture>
+                                </div>
+                                <div class="swiper-slide catalogue__slide">
+                                    <h4 class="catalogue__title">Slide 2</h4>
+                                    <picture><source srcset="./img/catalogue/01.webp" type="image/webp"><img src="./img/catalogue/01.jpg" alt="image"></picture>
+                                </div>
+                                <div class="swiper-slide catalogue__slide">
+                                    <h4 class="catalogue__title">Slide 4</h4>
+                                    <picture><source srcset="./img/catalogue/01.webp" type="image/webp"><img src="./img/catalogue/01.jpg" alt="image"></picture>
+                                </div>
+                                <div class="swiper-slide catalogue__slide">
+                                    <h4 class="catalogue__title">Slide 5</h4>
+                                    <picture><source srcset="./img/catalogue/01.webp" type="image/webp"><img src="./img/catalogue/01.jpg" alt="image"></picture>
+                                </div>
+                                <div class="swiper-slide catalogue__slide">
+                                    <h4 class="catalogue__title">Slide 6</h4>
+                                    <picture><source srcset="./img/catalogue/01.webp" type="image/webp"><img src="./img/catalogue/01.jpg" alt="image"></picture>
+                                </div>
+                                <div class="swiper-slide catalogue__slide">
+                                    <h4 class="catalogue__title">Slide 7</h4>
+                                    <picture><source srcset="./img/catalogue/01.webp" type="image/webp"><img src="./img/catalogue/01.jpg" alt="image"></picture>
+                                </div>
+                                <div class="swiper-slide catalogue__slide">
+                                    <h4 class="catalogue__title">Slide 8</h4>
+                                    <picture><source srcset="./img/catalogue/01.webp" type="image/webp"><img src="./img/catalogue/01.jpg" alt="image"></picture>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="catalogue__button">
+                            <a href="./catalogue.html" class="catalogue__link">ПЕРЕЙТИ В КАТАЛОГ</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="learnmore">
+                    <div class="container">
+                        <form action="#" method="get" class="learnmore__form form">
+                            <h4 class="form__title">Узнать больше</h4>
+                            <div class="form__inputs">
+                                <div class="form__input"><input type="text" placeholder="Имя" name="name"></div>
+                                <div class="form__input"><input type="tel" placeholder="Телефон" name="phone"></div>
+                            </div>
+                            <button class="form__button" type="submit">ОТПРАВИТЬ</button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__row">
+                        <div class="footer__column">
+                            <h3 class="footer__title">Контакты</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item footer__item-01">г. Алматы, мкр. Шапагат, ул. Шоссейная 78А,</li>
+                                <li class="footer__item footer__item-02">
+                                    <p>(123) 456-7890</p>
+                                    <p>(123) 456-7890</p>
+                                    <p>(123) 456-7890</p>
+                                </li>
+                                <li class="footer__item footer__item-03">prom.himtorg@mail.ru</li>
+                            </ul>
+                        </div>
+                        <div class="footer__column">
+                            <h3 class="footer__title">Навигация</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item footer__item04"><a href="../index.html" class="footer__link">Главная</a></li>
+                                <li class="footer__item footer__item05"><a href="../catalogue.html" class="footer__link">Каталог</a></li>
+                                <li class="footer__item footer__item06"><a href="../about.html" class="footer__link">О нас</a></li>
+                                <li class="footer__item footer__item07"><a href="../contacts.html" class="footer__link">Контакты</a></li>
+                                <li class="footer__item footer__item08"><a href="https://www.instagram.com/promhimtorg_product/?igshid=YmMyMTA2M2Y%3D" class="footer__link">instagram</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__column">
+                            <h3 class="footer__title">График работы:</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item footer__item-no-image">
+                                    <p>Понедельник - Пятница</p>
+                                    <p>9:00 - 18:00</p>
+                                </li>
+                                <li class="footer__item footer__item-no-image">
+                                    <p>Суббота</p>
+                                    <p>9:00 - 12:00</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__logo">
+                        <picture><source srcset="./img/header/logo.webp" type="image/webp"><img src="./img/header/logo.png" alt="logo"></picture>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230525194439"></script>
+    <script src="js/app.min.js?_v=20230525194439"></script>
+</body>
+</html>
